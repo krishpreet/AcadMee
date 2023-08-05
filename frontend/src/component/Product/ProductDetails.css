@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f8f8;
+}
+
+.ProductDetails {
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.detailsBlock-1 > h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.detailsBlock-1 > p {
+  font-size: 14px;
+  color: #777;
+  display: flex;
+  align-items: center;
+}
+
+.detailsBlock-1 > p span {
+  margin-right: 4px;
+}
+
+.carouselContainer {
+  margin-top: 20px;
+}
+
+.CarouselImage {
+  border: 1px solid #ccc;
+  max-width: 100%;
+  height: auto;
+}
+
+.detailsBlock-4 {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.detailsBlock-4 button.seeAllButton {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #007bff;
+  background: none;
+  border: none;
+  padding: 0;
+}
+/* Assuming the dialog container has a class called "dialogContainer" */
+/* Assuming the dialog container has a class called "dialogContainer" */
+.dialogContainer {
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Style for the dialog title */
+.dialogContainer .MuiDialogTitle-root {
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style for the scrollable dialog content */
+.dialogContainer .MuiDialogContent-root {
+  padding: 24px;
+  font-size: 14px;
+  color: #666;
+  max-height: 300px; /* Set the maximum height for the content */
+  overflow-y: scroll; /* Enable vertical scrolling when content exceeds the max-height */
+}
+
+/* Style for the dialog actions */
+.dialogContainer .MuiDialogActions-root {
+  padding: 16px;
+  justify-content: center;
+}
+
+/* Style for the "Close" button */
+.dialogContainer .MuiButton-root {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dialogContainer .MuiButton-root:hover {
+  background-color: #0056b3;
+}
+
+
+/* Assuming the dialog container has a class called "dialogContainer" */
+
+
+.detailsblock-3 {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.BookingCalendar {
+  width: 100%;
+}
+
+.Reviewsection {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.reviewsHeading {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.noReviews {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reviews {
+  margin-top: 20px;
+}
+
+.ReviewCard {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.ReviewCard p {
+  font-size: 16px;
+}
+
+.ReviewCard .rating {
+  margin-top: 8px;
+}
+
+.submitReview {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submitReview:hover {
+  background-color: #0056b3;
+}
+
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submitDialog .submitDialogTextArea {
+  width: 100%;
+  resize: vertical;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.submitDialog .MuiRating-root {
+  margin-bottom: 20px;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .ProductDetails {
+    padding: 10px;
+  }
+
+  .detailsBlock-1 > h1 {
+    font-size: 20px;
+  }
+
+  .detailsBlock-4,
+  .detailsblock-3,
+  .Reviewsection {
+    margin-top: 10px;
+  }
+
+  .ReviewCard {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,42 @@
+/* Footer.css */
+
+footer1 {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .footerleft {
+    flex: 0;
+  }
+
+  .footerleft > h1 {
+    text-align: left;
+  }
+  .footerleft > h2 {
+    text-align: left;
+  }
+  
+  .footerleft2 {
+    text-align: right;
+  }
+  
+  /* Reduce the size of headers inside footerleft and footerleft2 */
+  .footerleft h1,
+  .footerleft2 h1 {
+    font-size: 26px;
+  }
+.footerleft > p{
+    font-size: larger;
+}
+.footerleft2 > p{
+    font-size: larger;
+}
+.tnc
+{
+    text-align: center;
+}
+.abu{
+    text-align: center;
+}
+  
